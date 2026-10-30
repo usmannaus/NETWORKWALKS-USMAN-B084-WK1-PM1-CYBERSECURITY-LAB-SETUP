@@ -77,9 +77,6 @@ Installed Oracle VM VirtualBox on the host machine to create and manage the virt
 
 VirtualBox provides the virtualization infrastructure required to run Kali Linux independently of the host operating system.
 
-**Screenshot: VirtualBox Installation**
-
-![VirtualBox Installation](screenshots/01-virtualbox-installation.png)
 
 ### 2. Download and Configure Kali Linux
 
@@ -89,7 +86,7 @@ Kali Linux serves as the primary attacking machine for conducting cybersecurity 
 
 **Screenshot: Kali Linux Virtual Machine**
 
-![Kali Linux VM](screenshots/02-kali-linux-vm.png)
+![Kali VM Created Successfully](kali%20vm%20created%20successfully.png)
 
 ### 3. Configure NAT Network
 
@@ -106,7 +103,7 @@ The following network configuration was applied:
 
 **Screenshot: NAT Network Configuration**
 
-![NAT Network Configuration](screenshots/03-nat-network-configuration.png)
+![Configuration of the NAT Network in VirtualBox](Configuration%20of%20the%20NAT%20Network%20in%20VirtualBox.png)
 
 ### 4. Configure Kali Linux Network Adapter
 
@@ -116,7 +113,7 @@ The network adapter was assigned to `NatNetwork` to ensure that the virtual mach
 
 **Screenshot: Network Adapter Configuration**
 
-![Network Adapter](screenshots/04-network-adapter-settings.png)
+![Network Settings in Kali](Network%20Settings%20in%20Kali.png)
 
 ### 5. Configure Shared Folders
 
@@ -128,7 +125,7 @@ This provides a convenient way to transfer files, scripts, tools, and other reso
 
 **Screenshot: Shared Folder Configuration**
 
-![Shared Folder](screenshots/05-shared-folder-settings.png)
+![Shared Folders](shared%20folders.png)
 
 ### 6. Enable Clipboard and Drag-and-Drop
 
@@ -141,7 +138,7 @@ These settings improve interaction between the host machine and Kali Linux.
 
 **Screenshot: Clipboard and Drag-and-Drop Settings**
 
-![Clipboard and Drag Drop](screenshots/06-clipboard-drag-drop-settings.png)
+![Enable Clipboard](enable%20clipboard.png)
 
 ### 7. Configure Kali Linux IP Address
 
@@ -156,13 +153,7 @@ Configured Kali Linux with the required static IPv4 address within the laborator
 
 The configuration ensures that Kali Linux operates within the specified `10.0.0.0/24` network.
 
-**Screenshot: Kali Linux Desktop**
-
-![Kali Linux Desktop](screenshots/07-kali-desktop.png)
-
-**Screenshot: IP Address Configuration**
-
-![IP Configuration](screenshots/08-ip-address-configuration.png)
+![Network Settings in Kali](Network%20Settings%20in%20Kali.png)
 
 ## 🔍 Network Configuration & Verification
 
@@ -183,7 +174,7 @@ Purpose:
 
 **Screenshot: IP Address Verification**
 
-![IP Verification](screenshots/09-ip-verification.png)
+![Verify IP Address](verifu%20ip%20add.png)
 
 ### 2. Verify Routing Configuration
 
@@ -212,7 +203,7 @@ Purpose:
 
 **Screenshot: Internet Connectivity Test**
 
-![Internet Connectivity](screenshots/10-internet-connectivity.png)
+![Testing Network Connectivity](testing%20network%20connectivity.png)
 
 ### 4. Verify DNS Resolution
 
@@ -228,7 +219,7 @@ Purpose:
 
 **Screenshot: DNS Verification**
 
-![DNS Verification](screenshots/11-dns-verification.png)
+![Verify DNS Resolution](verify%20DNS%20resolution.png)
 
 ## 🔐 Final Lab Configuration
 
